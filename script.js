@@ -1,9 +1,26 @@
 console.log("Hello World!");
-// 1. Create an array called favoriteFoods with at least 6 foods you love.
+let team = "Sky";
+let jersey = 88;
+let hasWonChampionship = false;
+let stadiumLocation = null;
+let nextGame;
+console.log(team);
+console.log(jersey);
+console.log(hasWonChampionship);
+console.log(stadiumLocation);
+console.log(nextGame);
 
+// 1. Create an array called favoriteFoods with at least 6 foods you love.
+let favoriteFoods = ["spaghetti","Fried Chicken","Cicken fired rice","Ruben","jambalaya","pergogi" ]
+console.log(favoriteFoods);
+console.log(favoriteFoods.length, "favorite foods");
 
 
 // 2. Loop through the list and print: "One of my favorite foods is ______."
+function foodlist() {for (let i = 0; i < favoriteFoods.length; i++) {
+  console.log("One of my favorite foods is", favoriteFoods[i]);
+}}
+console.log(foodlist());
 
 
 
@@ -14,7 +31,7 @@ console.log("Hello World!");
 // "My #2 favorite food is Sushi"
 // ...etc.
 
-
+console.log("My {}")
 
 
 
@@ -44,16 +61,17 @@ let friendFavorites = [
 
 
 // 7. Create a new array longFoodNames for foods with names longer than 6 characters.
-
+let longFoodNames = ["Burger", "Lasagna", "Empenadas"];
 
 
 // 8. Create another array shortFoodNames for foods 6 characters or shorter.
-
+let shortFoodNames = ["Taco","Gyro","Rice"];
 
 
 // 9. Print both arrays and compare:
 // "There are more long-named foods." OR "There are more short-named foods."
-
+console.log(longFoodNames);
+console.log(shortFoodNames);
 
 // 10. STRETCH: Find the longest food name and print:
 // "The longest food name in the list is ______ with ___ characters."
