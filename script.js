@@ -30,10 +30,12 @@ console.log(foodlist());
 // "My #1 favorite food is Ramen" (copy/paste for all items)
 // "My #2 favorite food is Sushi"
 // ...etc.
+function rankedFoods(favoriteFoods) {for (let i=1; i <=6; i++) {
+console.log("My", i, "favorite food is", favoriteFoods[i-1])
+ }
+}
 
-console.log("My {}")
-
-
+rankedFoods(favoriteFoods)
 
 // 4a. Create a function printFoodRecommendation(foodName) that prints out the following for the foodName provided
     // "Have you ever tried ____?"
